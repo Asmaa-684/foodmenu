@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+      .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    h1,h5,h2{
+        color:rgb(5, 5, 63);
+    }
+    p{
+        color: blue;
+    }
+    
+    footer {
+      background-color: #e6e0e0;
+      padding: 25px;
+    }
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+    .pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+      </style>
+</head>
+      <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="#">Food</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#">My food</a></li>
+                  <li><a href="#">Meal</a></li>
+                </ul>
+        </div>
+      </nav>
+      
+      <div class="container-fluid bg-3 text-center">    
+        <h3>Some of our meal</h3><br>
+        <div class="row">
+          <div class="col-sm-4">
+           
+            <img src="./images (4).jpg" class="img-responsive"  alt="Image"width="400" height="300">
+            <h1>(first meal)</h1>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
+        </div>
+          <div class="col-sm-4"> 
+          
+            <img src="./images (3).jpg" class="img-responsive"  alt="Image" width="400" height="300">
+           <h1>(second meal)</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
+        </div>
+          <div class="col-sm-4"> 
+            <img src="./download (3).jpg" class="img-responsive" alt="Image" width="400" height="300">
+          <h1>(third meal)</h1> 
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
+       
+        </div>
+      <div class="container-fluid bg-3 text-center">    
+        <div class="row">
+         <div class="col-sm-4">
+            
+            <img src="./images.jpg" class="img-responsive" alt="Image"width="400" height="300">
+          <h1>(forth meal)</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
+       
+          </div>
+          <div class="col-sm-4">
+            
+            <img src="./download (5).jpg" class="img-responsive" alt="Image"width="400" height="300">
+          <h1>(fifth meal)</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
+       
+          </div>
+          <div class="col-sm-4">
+            
+            <img src="./images (1).jpg" class="img-responsive" alt="Image" width="400" height="300">
+          <h1>(sixth meal)</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
+       
+          </div>
+         
+        </div>
+        <div class="pagination">
+          <a href="#">&laquo;</a>
+          <a class="active"href="#">1</a>
+          <a  href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">6</a>
+          <a href="#">&raquo;</a>
+        </div>
+        
+      </div><br><br>
+      <div class="container-fluid bg-3 text-center">    
+        <div class="row">
+            <div class="col-sm-3">
+            </div>
+         <div class="col-sm-6 text-center" >
+             <img src="./images (6).jpg" class="img-responsive" style="width: 100%;" alt="Image">
+             <h1>about our food</h1>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore. </p>
+            </div>
+            <div class="col-sm-3">
+            </div>
+<br><br><br><br><br>
+            <div class="container-fluid bg-3 text-center">    
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h2>Footer</h2>
+                        <p>   Lorem ipsum dolor sit amet<br>
+                             consectetur adipisicing elit<br>
+                              explicabo inventore.</p>
+                    </div>
+                 <div class="col-sm-4 " >
+                     <h2>BlogPost</h2>
+                    
+                      <h5><span class="label label-danger">Food</span> <span class="label label-primary">Ipsum</span></h5><br>
+
+                 </div>
+                 <div class="col-sm-4">
+                    <h2>popular tag</h2>
+                   
+                    <button type="button" class="btn btn-outline-primary" ; style="border-color:pink;">food</button>
+                    <button type="button" class="btn btn-outline-secondary" ; style="border-color: red;">fruit</button>
+                    <button type="button" class="btn btn-outline-success"; style="border-color:rgb(192, 255, 211);">drinks</button><br>
+                    <button type="button" class="btn btn-outline-danger"; style="border-color:rgb(35, 10, 175);">desert</button>
+                    <button type="button" class="btn btn-outline-warning"; style="border-color:yellow;">cakes</button>
+                    <button type="button" class="btn btn-outline-info"; style="border-color:green;">breakfast</button><br>
+                    <button type="button" class="btn btn-outline-light"; style="border-color:orangered;">apple</button>
+                    <button type="button" class="btn btn-outline-dark"; style="border-color:violet;">Dinner</button>
+                 </div>
+
+            
+              
+            
+
+               
+
+      </body>
+   
+    
+   </html>
